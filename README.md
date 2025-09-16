@@ -1,7 +1,7 @@
 # C Condition Problems
 
 This repository contains solutions to **basic conditional problems in C**.  
-The problems are taken from a set of exercises where only **single `*` difficulty** problems were solved.  
+The problems are taken from a set of exercises where only Condition problems were solved.  
 Each problem is implemented in a separate `.c` file.
 
 ---
