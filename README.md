@@ -30,11 +30,53 @@ if (condition) {
 }
 ```
 
-The if-else Statement
+### 🔹 The if-else Statement
 ```c
 if (condition) {
     // executes if condition is true
 } else {
     // executes if condition is false
+}
+```
+
+### 🔹 The if-else if-else Ladder
+```c
+if (condition1) {
+    // executes if condition1 is true
+} else if (condition2) {
+    // executes if condition2 is true
+} else {
+    // executes if none are true
+}
+```
+### 🔹 The switch Statement
+```c
+switch(choice) {
+    case 1: printf("Case 1\n"); break;
+    case 2: printf("Case 2\n"); break;
+    default: printf("Invalid choice\n");
+}
+```
+### ⚙️ Operators Used in Conditions
+C supports relational and logical operators for conditions.
+* Relational Operators
+
+    == (equal to)
+    != (not equal to)
+    > (greater than)
+    < (less than)
+    >= (greater than or equal to)
+    <= (less than or equal to)
+
+* Logical Operators
+
+    && (AND → true if both are true)
+    || (OR → true if at least one is true)
+    ! (NOT → reverses condition)
+
+> Example:
+```c
+if (year % 4 == 0 && year % 100 != 0) {
+    printf("Leap year\n");
 }
 ```
