@@ -69,11 +69,11 @@ C supports relational and logical operators for conditions.
     <= (less than or equal to)
 ```
 * Logical Operators
-
+```
     && (AND → true if both are true)
     || (OR → true if at least one is true)
     ! (NOT → reverses condition)
-
+```
 > Example:
 ```c
 if (year % 4 == 0 && year % 100 != 0) {
