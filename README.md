@@ -60,14 +60,14 @@ switch(choice) {
 ### ⚙️ Operators Used in Conditions
 C supports relational and logical operators for conditions.
 * Relational Operators
-
+```
     == (equal to)
     != (not equal to)
     > (greater than)
     < (less than)
     >= (greater than or equal to)
     <= (less than or equal to)
-
+```
 * Logical Operators
 
     && (AND → true if both are true)
@@ -80,3 +80,31 @@ if (year % 4 == 0 && year % 100 != 0) {
     printf("Leap year\n");
 }
 ```
+### ▶️ How to Compile and Run
+Each problem is in its own file (e.g., 1.c, 2.c, etc.).
+1. Compile using GCC (or any C compiler):
+```bash
+gcc 1.c -o problem1
+```
+2. Run the executable:
+```bash
+./problem1
+```
+Repeat this for other files (2.c, 3.c, etc.).
+
+### 📚 More Information
+* These programs are focused on decision-making using if-else and switch.
+* They are ideal for beginners learning C programming.
+
+* Topics covered:
+> Conditional statements (if, if-else, switch)
+> Relational and logical operators
+> Input/output handling in C
+> Simple problem-solving
+
+---
+✨ This project is a small step into problem-solving with C conditions.
+It can serve as a practice resource for beginners and students.
+
+
+
